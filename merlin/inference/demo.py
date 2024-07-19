@@ -4,6 +4,7 @@ import torch
 import merlin
 
 warnings.filterwarnings("ignore")
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model = merlin.models.Merlin()
 model.eval()
@@ -36,7 +37,7 @@ dataloader = merlin.data.DataLoader(
 
 for batch in dataloader:
     outputs = model(
-        batch["image"].to("cuda" if torch.cuda.is_available() else "cpu"), 
+        batch["image"].to(device), 
         batch["text"]
         )
     print(f"\n================== Output Shapes ==================")
