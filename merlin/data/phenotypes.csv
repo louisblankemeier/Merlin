@@ -1,0 +1,1693 @@
+phecode,phecode_str
+8,Intestinal infection
+8.5,Bacterial enteritis
+8.51,Intestinal e.coli
+8.52,Intestinal infection due to C. difficile
+8.6,Viral Enteritis
+8.7,Intestinal infection due to protozoa
+10,Tuberculosis
+31,Diseases due to other mycobacteria
+38,Septicemia
+38.1,Gram negative septicemia
+38.2,Gram positive septicemia
+38.3,Bacteremia
+41,Bacterial infection NOS
+41.1,Staphylococcus infections
+41.11,Methicillin sensitive Staphylococcus aureus
+41.12,Methicillin resistant Staphylococcus aureus
+41.2,Streptococcus infection
+41.21,Rheumatic fever / chorea
+41.4,E. coli
+41.8,H. pylori
+41.9,Infection with drug-resistant microorganisms
+53,Herpes zoster
+53.1,Herpes zoster with nervous system complications
+54,Herpes simplex
+70,Viral hepatitis
+70.1,Viral hepatitis A
+70.2,Viral hepatitis B
+70.3,Viral hepatitis C
+70.4,Chronic hepatitis
+70.9,Hepatitis NOS
+71,Human immunodeficiency virus [HIV] disease
+71.1,"HIV infection, symptomatic"
+78,Viral warts & HPV
+79,Viral infection
+79.1,Varicella infection
+79.2,Infectious mononucleosis
+79.9,"Viremia, NOS"
+80,Postoperative infection
+81,Infection/inflammation of internal prosthetic device; implant; and graft
+81.1,Graft-versus-host disease
+81.11,Acute graft-versus-host disease
+81.12,Chronic graft-versus-host disease
+90,Sexually transmitted infections (not HIV or hepatitis)
+90.2,Gonococcal infections
+90.3,Venereal diseases due to Chlamydia trachomatis
+110.1,Dermatophytosis
+110.11,Dermatophytosis of nail
+110.12,Althete's foot
+110.13,Dermatophytosis of the body
+110.2,Dermatomycoses
+112,Candidiasis
+112.3,Candidiasis of skin and nails
+117,Mycoses
+117.1,Histoplasmosis
+117.2,Coccidioidomycosis
+117.3,Blastomycotic infection
+117.4,Aspergillosis
+130,Spirochetal infection
+130.1,Lyme disease
+131,Protozoan infection
+132,"Infestation (lice, mites)"
+132.1,Pediculosis and phthirus infestation
+133,Arthropod-borne diseases
+134,Helminthiases
+134.1,Intestinal helminthiases
+136,Other infectious and parasitic diseases
+145,Cancer of mouth
+145.2,Cancer of tongue
+145.3,Cancer of major salivary glands
+145.4,Cancer of the gums
+145.5,Cancer of the mouth floor
+149,"Cancer of larynx, pharynx, nasal cavities"
+149.1,Cancer of oropharynx
+149.2,Cancer of nasopharynx
+149.3,Cancer of hypopharynx
+149.4,Cancer of larynx
+149.5,Hx of malignant neoplasm of oral cavity and pharynx
+149.9,Cancer of of nasal cavities
+150,Cancer of esophagus
+151,Cancer of stomach
+153,Colorectal cancer
+153.2,Colon cancer
+153.3,"Malignant neoplasm of rectum, rectosigmoid junction, and anus"
+155,Cancer of liver and intrahepatic bile duct
+155.1,"Malignant neoplasm of liver, primary"
+157,Pancreatic cancer
+158,Neoplasm of unspecified nature of digestive system
+159,Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum
+159.2,"Malignant neoplasm of small intestine, including duodenum"
+159.3,Malignant neoplasm of gallbladder and extrahepatic bile ducts
+159.4,Malignant neoplasm of retroperitoneum and peritoneum
+164,Cancer of intrathoracic organs
+165,Cancer within the respiratory system
+165.1,Cancer of bronchus; lung
+170.1,Bone cancer
+170.2,Cancer of connective tissue
+172.1,"Melanomas of skin, dx or hx"
+172.11,Melanomas of skin
+172.2,Other non-epithelial cancer of skin
+172.21,Basal cell carcinoma
+172.22,Squamous cell carcinoma
+172.3,Carcinoma in situ of skin
+173,Neoplasm of uncertain behavior of skin
+174,Breast cancer
+174.1,Breast cancer [female]
+174.11,Malignant neoplasm of female breast
+174.2,Breast cancer [male]
+174.3,Neoplasm of uncertain behavior of breast
+175,Acquired absence of breast
+180.1,Cervical cancer
+180.3,Cervical intraepithelial neoplasia [CIN] [Cervical dysplasia]
+182,Malignant neoplasm of uterus
+184,Cancer of other female genital organs
+184.1,Malignant neoplasm of ovary and other uterine adnexa
+184.11,Malignant neoplasm of ovary
+184.2,Cancer of other female genital organs (excluding uterus and ovary)
+185,Cancer of prostate
+187,Cancer of other male genital organs
+187.1,Malignant neoplasm of unspecified male genital organ
+187.2,Malignant neoplasm of testis
+189,Cancer of urinary organs (incl. kidney and bladder)
+189.1,Cancer of kidney and renal pelvis
+189.11,"Malignant neoplasm of kidney, except pelvis"
+189.12,Malignant neoplasm of renal pelvis
+189.2,Cancer of bladder
+189.21,Malignant neoplasm of bladder
+189.4,Malignant neoplasm of other urinary organs
+190,Cancer of eye
+191,Manlignant and unknown neoplasms of brain and nervous system
+191.1,Cancer of brain and nervous system
+191.11,Cancer of brain
+193,Thyroid cancer
+194,Cancer of other endocrine glands
+195,"Cancer, suspected or other"
+195.1,"Malignant neoplasm, other"
+195.3,"Malignant neoplasm of head, face, and neck"
+196,Radiotherapy
+197,Chemotherapy
+198,Secondary malignant neoplasm
+198.1,Secondary malignancy of lymph nodes
+198.2,Secondary malignancy of respiratory organs
+198.3,Secondary malignant neoplasm of digestive systems
+198.4,Secondary malignant neoplasm of liver
+198.5,Secondary malignancy of brain/spine
+198.6,Secondary malignancy of bone
+198.7,Secondary malignant neoplasm of skin
+199,Neoplasm of uncertain behavior
+199.4,Neurofibromatosis
+200,Myeloproliferative disease
+200.1,Polycythemia vera
+201,Hodgkin's disease
+202,"Cancer of other lymphoid, histiocytic tissue"
+202.2,Non-Hodgkins lymphoma
+202.21,Nodular lymphoma
+202.22,Reticulosarcoma
+202.23,Lymphosarcoma
+202.24,Large cell lymphoma
+204,Leukemia
+204.1,Lymphoid leukemia
+204.11,"Lymphoid leukemia, acute"
+204.12,"Lymphoid leukemia, chronic"
+204.2,Myeloid leukemia
+204.21,"Myeloid leukemia, acute"
+204.22,"Myeloid leukemia, chronic"
+204.3,Monocytic leukemia
+204.4,Multiple myeloma
+208,Benign neoplasm of colon
+209,Neuroendocrine tumors
+210,"Benign neoplasm of lip, oral cavity, and pharynx"
+211,Benign neoplasm of other parts of digestive system
+212,Benign neoplasm of respiratory and intrathoracic organs
+213,Benign neoplasm of bone and articular cartilage
+214,Lipoma
+214.1,Lipoma of skin and subcutaneous tissue
+215,Other benign neoplasm of connective and other soft tissue
+216,Benign neoplasm of skin
+216.1,Screening for malignant neoplasms of the skin
+217,Vascular hamartomas and non-neoplastic nevi
+217.1,"Nevus, non-neoplastic"
+218.1,Uterine leiomyoma
+218.2,Other benign neoplasm of uterus
+220,Benign neoplasm of ovary
+221,Benign neoplasm of other female genital organs
+223,Benign neoplasm of kidney and other urinary organs
+224.1,"Benign neoplasm of eye, uveal"
+225.1,"Benign neoplasm of brain, cranial nerves, meninges"
+225.2,"Benign neoplasm of spinal cord, meninges"
+226,Benign neoplasm of thyroid glands
+227.1,Benign neoplasm of adrenal gland
+227.2,Benign neoplasm of parathyroid gland
+227.3,Benign neoplasm of pituitary gland and craniopharyngeal duct (pouch)
+228,"Hemangioma and lymphangioma, any site"
+228.1,Hemangioma of skin and subcutaneous tissue
+229,Benign neoplasm of unspecified sites
+229.1,Benign neoplasm of lymph nodes
+230,Kaposi's sarcoma
+240,Simple and unspecified goiter
+241,Nontoxic nodular goiter
+241.1,Nontoxic uninodular goiter
+241.2,Nontoxic multinodular goiter
+242,Thyrotoxicosis with or without goiter
+242.1,Graves' disease
+242.2,Toxic multinodular goiter
+242.3,Exophthalmos
+244.1,Secondary hypothyroidism
+244.2,Acquired hypothyroidism
+244.4,Hypothyroidism NOS
+244.5,Congenital hypothyroidism
+245,Thyroiditis
+245.21,Chronic lymphocytic thyroiditis
+246,Other disorders of thyroid
+246.2,Thyroid cyst
+246.7,Abnormal results of function study of thyroid
+249,Secondary diabetes mellitus
+250,Diabetes mellitus
+250.1,Type 1 diabetes
+250.11,Type 1 diabetes with ketoacidosis
+250.12,Type 1 diabetes with renal manifestations
+250.13,Type 1 diabetes with ophthalmic manifestations
+250.14,Type 1 diabetes with neurological manifestations
+250.15,Diabetes type 1 with peripheral circulatory disorders
+250.2,Type 2 diabetes
+250.21,Type 2 diabetes with ketoacidosis
+250.22,Type 2 diabetes with renal manifestations
+250.23,Type 2 diabetes with ophthalmic manifestations
+250.24,Type 2 diabetes with neurological manifestations
+250.25,Diabetes type 2 with peripheral circulatory disorders
+250.3,Insulin pump user
+250.41,Impaired fasting glucose
+250.42,Other abnormal glucose
+250.5,Glycosuria or Acetonuria
+250.6,Polyneuropathy in diabetes
+250.7,Diabetic retinopathy
+251,Other disorders of pancreatic internal secretion
+251.1,Hypoglycemia
+251.8,Abnormality of secretion of glucagon or gastrin
+252,Disorders of parathyroid gland
+252.1,Hyperparathyroidism
+252.2,Hypoparathyroidism
+253,Disorders of the pituitary gland and its hypothalamic control
+253.1,Pituitary hyperfunction
+253.11,Acromegaly and gigantism
+253.2,Pituitary hypofunction
+253.3,Diabetes insipidus
+253.4,Anterior pituitary disorders
+253.7,Other disorders of neurohypophysis
+254,Diseases of thymus gland
+255,Disorders of adrenal glands
+255.1,Adrenal hyperfunction
+255.11,Cushing's syndrome
+255.12,Hyperaldosteronism
+255.2,Adrenal hypofunction
+255.21,Glucocorticoid deficiency
+255.3,Adrenogenital disorders
+256,Ovarian dysfunction
+256.4,Polycystic ovaries
+257.1,Testicular hypofunction
+258,Iatrogenic endocrine disorders
+258.1,Postablative ovarian failure
+259,Other endocrine disorders
+259.2,Carcinoid syndrome
+259.8,Polyglandular activity in multiple endocrine adenomatosis
+260,Protein-calorie malnutrition
+260.1,Cachexia
+260.2,severe protein-calorie malnutrition
+260.21,Kwashiorkor
+260.22,Nutritional marasmus
+260.3,Adult failure to thrive
+260.6,Anorexia
+260.7,Polyphagia
+261,Vitamin deficiency
+261.1,Vitamin A deficiency
+261.2,Vitamin B-complex deficiencies
+261.3,Vitamin C deficiencies
+261.4,Vitamin D deficiency
+261.41,Rickets or osteomalacia
+262,Mineral deficiency NEC
+263,Other nutritional deficiency
+264.1,Short stature
+264.2,Failure to thrive (childhood)
+264.9,"Lack of normal physiological development, unspecified"
+269,Proteinuria
+270.1,Disturbances of amino-acid transport
+270.11,Disturbances of sulphur-bearing amino-acid metabolism
+270.2,Disorders of amino-acid metabolism
+270.21,Disorders of urea cycle metabolism
+270.3,Disorders of plasma protein metabolism
+270.31,Polyclonal hypergammaglobulinemia
+270.32,Paraproteinemia
+270.33,Amyloidosis
+270.34,Alpha-1-antitrypsin deficiency
+270.35,Macroglobulinemia
+270.38,Other specified disorders of plasma protein metabolism
+271.3,Intestinal disaccharidase deficiencies and disaccharide malabsorption
+271.9,Other disorders of carbohydrate transport and metabolism
+272.1,Hyperlipidemia
+272.11,Hypercholesterolemia
+272.12,Hyperglyceridemia
+272.13,Mixed hyperlipidemia
+272.14,Hyperchylomicronemia
+272.9,Unspecified disorder of lipoid metabolism
+274.1,Gout
+274.11,Gouty arthropathy
+274.2,Crystal arthropathies
+274.21,Chondrocalcinosis
+275,Disorders of mineral metabolism
+275.1,Disorders of iron metabolism
+275.11,Hereditary hemochromatosis
+275.2,Disorders of copper metabolism
+275.3,Disorders of magnesium metabolism
+275.5,Disorders of calcium/phosphorus metabolism
+275.51,Hypocalcemia
+275.53,Disorders of phosphorus metabolism
+275.6,Hypercalcemia
+276.1,Electrolyte imbalance
+276.11,Hyperosmolality and/or hypernatremia
+276.12,Hyposmolality and/or hyponatremia
+276.13,Hyperpotassemia
+276.14,Hypopotassemia
+276.4,Acid-base balance disorder
+276.41,Acidosis
+276.42,Alkalosis
+276.5,Hypovolemia
+276.6,Fluid overload
+276.8,Polydipsia
+277,Other disorders of metabolism
+277.1,Disorders of porphyrin metabolism
+277.4,Disorders of bilirubin excretion
+277.5,Other disorders of lipoid metabolism
+277.51,Lipoprotein disorders
+277.6,Other deficiencies of circulating enzymes
+277.7,Dysmetabolic syndrome X
+277.8,Carnitine deficiencies
+278,"Overweight, obesity and other hyperalimentation"
+278.1,Obesity
+278.11,Morbid obesity
+278.3,Localized adiposity
+278.4,Abnormal weight gain
+279,Disorders involving the immune mechanism
+279.1,Immunity deficiency
+279.11,Deficiency of humoral immunity
+279.2,Autoimmune disease NEC
+279.7,Other immunological findings
+279.8,Other specified disorders involving the immune mechanism
+280.1,"Iron deficiency anemias, unspecified or not due to blood loss"
+280.2,Iron deficiency anemia secondary to blood loss (chronic)
+281,Other deficiency anemia
+281.1,Megaloblastic anemia
+281.11,Pernicious anemia
+281.12,Other vitamin B12 deficiency anemia
+281.13,Folate-deficiency anemia
+281.9,Deficiency anemias
+282.5,Sickle cell anemia
+282.8,Other hemoglobinopathies
+282.9,Other hereditary hemolytic anemias
+283,Acquired hemolytic anemias
+283.1,Autoimmune hemolytic anemias
+283.2,Non-autoimmune hemolytic anemias
+283.21,Hemolytic-uremic syndrome
+284,Aplastic anemia
+284.1,Pancytopenia
+284.2,Constitutional aplastic anemia
+285,Other anemias
+285.1,Acute posthemorrhagic anemia
+285.2,Anemia of chronic disease
+285.21,Anemia in chronic kidney disease
+285.22,Anemia in neoplastic disease
+285.8,Hemoglobinuria
+286.1,Congenital coagulation defects
+286.11,Von willebrand's disease
+286.12,Congenital deficiency of other clotting factors (including factor VII)
+286.13,Congenital factor VIII disorder
+286.2,Encounter for long-term (current) use of anticoagulants
+286.3,Coagulation defects complicating pregnancy or postpartum
+286.4,Acquired coagulation factor deficiency
+286.5,Hemorrhagic disorder due to intrinsic circulating anticoagulants
+286.6,Defibrination syndrome
+286.7,Other and unspecified coagulation defects
+286.8,Hypercoagulable state
+286.81,Primary hypercoagulable state
+286.9,Abnormal coagulation profile
+287,Purpura and other hemorrhagic conditions
+287.1,Spontaneous ecchymoses
+287.2,Allergic purpura
+287.3,Thrombocytopenia
+287.31,Primary thrombocytopenia
+287.32,Secondary thrombocytopenia
+287.4,Qualitative platelet defects
+288,Diseases of white blood cells
+288.1,Decreased white blood cell count
+288.11,Neutropenia
+288.2,Elevated white blood cell count
+288.3,Eosinophilia
+289,Other diseases of blood and blood-forming organs
+289.1,Myelofibrosis
+289.3,Personal history of diseases of blood and blood-forming organs
+289.4,Lymphadenitis
+289.5,Diseases of spleen
+289.8,"Polycythemia, secondary"
+289.9,Abnormality of red blood cells
+290,Delirium dementia and amnestic and other cognitive disorders
+290.1,Dementias
+290.11,Alzheimer's disease
+290.12,Dementia with cerebral degenerations
+290.13,Senile dementia
+290.16,Vascular dementia
+290.2,Delirium due to conditions classified elsewhere
+290.3,Other persistent mental disorders due to conditions classified elsewhere
+291.1,Transient mental disorders due to conditions classified elsewhere
+291.4,Specific nonpsychotic mental disorders due to brain damage
+291.8,Alteration of consciousness
+292,Neurological disorders
+292.1,Aphasia/speech disturbance
+292.11,Aphasia
+292.12,Symbolic dysfunction
+292.2,Mild cognitive impairment
+292.3,Memory loss
+292.4,Altered mental status
+292.5,Transient alteration of awareness
+292.6,Hallucinations
+293,Symptoms involving head and neck
+293.1,"Swelling, mass, or lump in head and neck [Space-occupying lesion, intracranial NOS]"
+295,Schizophrenia and other psychotic disorders
+295.1,Schizophrenia
+295.2,Paranoid disorders
+295.3,Psychosis
+296,Mood disorders
+296.1,Bipolar
+296.2,Depression
+296.22,Major depressive disorder
+297,Suicidal ideation or attempt
+297.1,Suicidal ideation
+297.2,Suicide or self-inflicted injury
+300,Anxiety disorders
+300.1,Anxiety disorder
+300.11,Generalized anxiety disorder
+300.12,"Agorophobia, social phobia, and panic disorder"
+300.13,Phobia
+300.3,Obsessive-compulsive disorders
+300.4,Dysthymic disorder
+300.8,Acute reaction to stress
+300.9,Posttraumatic stress disorder
+301,Personality disorders
+301.2,Antisocial/borderline personality disorder
+302,Sexual and gender identity disorders
+303,Psychogenic and somatoform disorders
+303.1,Dissociative disorder
+303.3,Psychogenic disorder
+303.31,Gastrointestinal malfunction arising from mental factors
+303.4,Somatoform disorder
+304,Adjustment reaction
+305.2,Eating disorder
+305.21,Anorexia nervosa
+306,Other mental disorder
+306.1,Mental disorders durring/after pregnancy
+306.9,Tension headache
+312,Conduct disorders
+312.3,Impulse control disorder
+313,Pervasive developmental disorders
+313.1,Attention deficit hyperactivity disorder
+313.2,Tics and stuttering
+313.3,Autism
+315,Develomental delays and disorders
+315.1,Learning disorder
+315.2,Speech and language disorder
+315.3,Mental retardation
+316,Substance addiction and disorders
+316.1,Polyneuropathy due to drugs
+317,Alcohol-related disorders
+317.1,Alcoholism
+317.11,Alcoholic liver damage
+318,Tobacco use disorder
+320,Meningitis
+323,Encephalitis
+323.2,Acute (transverse) myelitis
+323.8,"Encephalitis, non-infectious"
+324,Other CNS infection and poliomyelitis
+325,Phlebitis and thrombophlebitis of intracranial venous sinuses
+327,Sleep disorders
+327.1,Hypersomnia
+327.3,Sleep apnea
+327.31,Central/nonobstroctive sleep apnea
+327.32,Obstructive sleep apnea
+327.4,Insomnia
+327.41,Organic or persistent insomnia
+327.5,Parasomnia
+327.6,Circadian rhythm sleep disorder
+327.7,Sleep related movement disorders
+327.71,Restless legs syndrome
+331,Other cerebral degenerations
+331.1,Hydrocephalus
+331.9,"Cerebral degeneration, unspecified"
+332,Parkinson's disease
+333,Extrapyramidal disease and abnormal movement disorders
+333.1,Essential tremor
+333.2,Myoclonus
+333.3,Tics and choreas
+333.4,Torsion dystonia
+333.8,Other degenerative diseases of the basal ganglia
+334,Degenerative disease of the spinal cord
+334.1,Spinocerebellar disease
+334.2,Anterior horn cell disease
+334.21,Amyotrophic Lateral Sclerosis
+335,Multiple sclerosis
+337,Disorders of the autonomic nervous system
+337.1,Peripheral autonomic neuropathy
+338.1,Acute pain
+338.2,Chronic pain
+339,Other headache syndromes
+340,Migraine
+340.1,Migrain with aura
+341,Other demyelinating diseases of central nervous system
+342,Hemiplegia
+343,Infantile cerebral palsy
+344,Other paralytic syndromes
+345,"Epilepsy, recurrent seizures, convulsions"
+345.1,Epilepsy
+345.11,Generalized convulsive epilepsy
+345.12,Partial epilepsy
+345.3,Convulsions
+346,Abnormal findings on study of brain and/or nervous system
+346.1,Nonspecific abnormal findings on radiological and other examination of skull and head
+346.2,Nonspecific abnormal results of function study of brain and central nervous system
+346.3,Nonspecific abnormal findings in cerebrospinal fluid
+347,Cataplexy and narcolepsy
+348,Other conditions of brain
+348.2,Cerebral edema and compression of brain
+348.4,Cerebral cysts
+348.7,Coma
+348.8,"Encephalopathy, not elsewhere classified"
+348.9,"Other conditions of brain, NOS"
+349,Other and unspecified disorders of the nervous system
+350.1,Abnormal involuntary movements
+350.2,Abnormality of gait
+350.3,Lack of coordination
+350.5,Abnormal reflex
+350.6,Disturbances of sensation of smell and taste
+351,Other peripheral nerve disorders
+352,Disorders of other cranial nerves
+352.1,Trigeminal nerve disorders [CN5]
+352.2,Facial nerve disorders [CN7]
+353,Nerve root and plexus disorders
+353.1,Nerve plexus lesions
+353.2,Nerve root lesions
+355,Complex regional/central pain syndrome
+355.1,Chronic pain syndrome
+356,Hereditary and idiopathic peripheral neuropathy
+357,Inflammatory and toxic neuropathy
+358,Myoneural disorders
+358.1,Myasthenia gravis
+359.1,Muscular dystrophies
+359.2,Myopathy
+360,Disorders of the globe
+360.2,Progressive myopia
+361,Retinal detachments and defects
+361.1,Retinal detachment with retinal defect
+361.2,Retinoschisis and retinal cysts
+362,Other retinal disorders
+362.21,"Macular degeneration, dry"
+362.22,"Macular degeneration, wet"
+362.23,Cystoid macular degeneration of retina
+362.26,Macular puckering of retina
+362.27,Drusen (degenerative) of retina
+362.29,Macular degeneration (senile) of retina NOS
+362.3,Other nondiabetic retinopathy
+362.31,Separation of retinal layers
+362.4,Retinal vascular changes and abnomalities
+362.5,Toxic maculopathy of retina
+362.6,Peripheral retinal degenerations
+362.7,Hereditary retinal dystrophies
+362.8,Retinal hemorrhage/ischemia
+362.9,Retinal edema
+363,"Chorioretinal inflammations, scars, and other disorders of choroid"
+363.3,Chorioretinal scars
+364,Corneal opacity and other disorders of cornea
+364.1,Corneal opacity
+364.2,Corneal edema
+364.4,Corneal degenerations
+364.41,Keratoconus
+364.5,Corneal dystrophy
+364.51,Fuchs' dystrophy
+364.9,Cornea replaced by transplant
+365,Glaucoma
+365.1,Open-angle glaucoma
+365.11,Primary open angle glaucoma
+365.2,Primary angle-closure glaucoma
+365.5,Pseudoexfoliation glaucoma
+366,Cataract
+366.1,Nonsenile Cataract
+366.2,Senile cataract
+367,Disorders of refraction and accommodation; blindness and low vision
+367.1,Myopia
+367.2,Astigmatism
+367.4,Presbyopia
+367.8,Hypermetropia
+367.9,Blindness and low vision
+368,Visual disturbances
+368.1,Amblyopia
+368.2,Diplopia and disorders of binocular vision
+368.3,Anisometropia
+368.4,Visual field defects
+368.5,Color vision deficiencies
+368.7,Disorders of accommodation
+368.9,Subjective visual disturbances
+368.91,Psychophysical visual disturbances
+369,Infection of the eye
+369.2,"Eye infection, viral"
+369.5,"Conjunctivitis, infectious"
+370,Keratitis
+370.1,Corneal ulcer
+370.2,Superficial keratitis
+370.3,Keratoconjunctivitis
+370.31,Keratoconjunctivitis sicca
+371,Inflammation of the eye
+371.1,"Uveitis, noninfectious or NOS"
+371.21,Allergic conjunctivitis
+371.3,Inflammation of eyelids
+372,Disorders of conjunctiva
+374,Other disorders of eyelids
+374.1,Ectropion or entropion
+374.2,Lagophthalmos
+374.3,Ptosis of eyelid
+374.6,Dermatochalasis
+375.1,Dry eyes
+375.2,Epiphora
+376,Disorders of the orbit
+377,Disorders of optic nerve and visual pathways
+377.1,Optic atrophy
+377.3,Optic neuritis/neuropathy
+378,Strabismus and other disorders of binocular eye movements
+378.1,Strabismus (not specified as paralytic)
+378.2,Nystagmus and other irregular eye movements
+378.5,Paralytic strabismus
+379,Other disorders of eye
+379.1,Scleritis and episcleritis
+379.2,Disorders of vitreous body
+379.3,Aphakia and other disorders of lens
+379.4,Anomalies of pupillary function
+379.5,Disorders of iris and ciliary body
+379.51,Pigmentary iris degeneration
+379.9,"Pain, swelling or discharge of eye"
+380,Disorders of external ear
+380.1,Otitis externa
+380.4,Impacted cerumen
+381.1,Otitis media
+381.11,Suppurative and unspecified otitis media
+381.2,Eustachian tube disorders
+381.3,Mastoiditis & related conditions
+381.9,Otorrhea
+382,Otalgia
+384,Other disorders of tympanic membrane
+384.1,Myringitis
+384.4,Perforation of tympanic membrane
+385,Other disorders of middle ear and mastoid
+385.3,Cholesteatoma
+385.5,Tympanosclerosis and middle ear disease related to otitis media
+386,Vertiginous syndromes and other disorders of vestibular system
+386.1,Meniere's disease
+386.2,Peripheral or central vertigo
+386.3,Labyrinthitis
+386.9,Dizziness and giddiness (Light-headedness and vertigo)
+388,Other disorders of ear
+389,Hearing loss
+389.1,Sensorineural hearing loss
+389.2,Conductive hearing loss
+389.3,Degenerative and vascular disorders of ear
+389.4,Tinnitus
+394,Rheumatic disease of the heart valves
+394.1,Mitral valve stenosis and aortic valve stenosis
+394.2,Mitral valve disease
+394.3,Aortic valve disease
+394.4,Acute rheumatic heart disease
+394.7,Disease of tricuspid valve
+395,Heart valve disorders
+395.1,Nonrheumatic mitral valve disorders
+395.2,Nonrheumatic aortic valve disorders
+395.3,Nonrheumatic tricuspid valve disorders
+395.4,Nonrheumatic pulmonary valve disorders
+395.6,Heart valve replaced
+396,Abnormal heart sounds
+401,Hypertension
+401.1,Essential hypertension
+401.2,Hypertensive heart and/or renal disease
+401.21,Hypertensive heart disease
+401.22,Hypertensive chronic kidney disease
+401.3,Other hypertensive complications
+402,Elevated blood pressure reading without diagnosis of hypertension
+411.1,Unstable angina (intermediate coronary syndrome)
+411.2,Myocardial infarction
+411.3,Angina pectoris
+411.4,Coronary atherosclerosis
+411.41,Aneurysm and dissection of heart
+411.8,"Other chronic ischemic heart disease, unspecified"
+411.9,Other acute and subacute forms of ischemic heart disease
+414,Other forms of chronic heart disease
+414.2,ASCVD
+415,Pulmonary heart disease
+415.1,Acute pulmonary heart disease
+415.11,"Pulmonary embolism and infarction, acute"
+415.2,Chronic pulmonary heart disease
+415.21,Primary pulmonary hypertension
+416,Cardiomegaly
+418,Nonspecific chest pain
+418.1,Precordial pain
+420.1,Myocarditis
+420.2,Pericarditis
+420.21,Acute pericarditis
+420.22,Chronic pericarditis
+420.3,Endocarditis
+425.1,Primary/intrinsic cardiomyopathies
+425.11,Hypertrophic obstructive cardiomyopathy
+425.12,Other hypertrophic cardiomyopathy
+425.2,Secondary/extrinsic cardiomyopathies
+425.8,Other cardiomyopathy
+426,Cardiac conduction disorders
+426.2,Atrioventricular [AV] block
+426.21,First degree AV block
+426.22,Mobitz II AV block
+426.23,Second degree AV block
+426.24,"Atrioventricular block, complete"
+426.25,Other heart block
+426.3,Bundle branch block
+426.31,Right bundle branch block
+426.32,Left bundle branch block
+426.4,Anomalous atrioventricular excitation
+426.7,Abnormal electrocardiogram [ECG] [EKG]
+426.8,Other cardiac conduction disorders
+426.9,Cardiac pacemaker/device in situ
+426.91,Cardiac pacemaker in situ
+426.92,Cardiac defibrillator in situ
+427.1,"Paroxysmal tachycardia, unspecified"
+427.11,Paroxysmal supraventricular tachycardia
+427.12,Paroxysmal ventricular tachycardia
+427.21,Atrial fibrillation
+427.22,Atrial flutter
+427.3,Other specified cardiac dysrhythmias
+427.41,Ventricular fibrillation and flutter
+427.42,Cardiac arrest
+427.5,Arrhythmia (cardiac) NOS
+427.6,Premature beats
+427.61,Supraventricular premature beats
+427.7,Tachycardia NOS
+427.8,Sinoatrial node dysfunction (Bradycardia)
+427.9,Palpitations
+428.1,Congestive heart failure (CHF) NOS
+428.2,Heart failure NOS
+428.3,Heart failure with reduced EF [Systolic or combined heart failure]
+428.4,Heart failure with preserved EF [Diastolic heart failure]
+429.1,Heart transplant/surgery
+429.2,Abnormal function study of cardiovascular system
+429.3,Symptoms involving cardiovascular system
+429.9,"Cardiac complications, not elsewhere classified"
+430,Intracranial hemorrhage
+430.1,Subarachnoid hemorrhage
+430.2,Intracerebral hemorrhage
+430.3,Subdural hemorrhage
+433,Cerebrovascular disease
+433.1,Occlusion and stenosis of precerebral arteries
+433.11,"Occlusion of cerebral arteries, with cerebral infarction"
+433.12,Cerebral atherosclerosis
+433.2,Occlusion of cerebral arteries
+433.21,"Cerebral artery occlusion, with cerebral infarction"
+433.3,Cerebral ischemia
+433.31,Transient cerebral ischemia
+433.32,Moyamoya disease
+433.5,Cerebral aneurysm
+433.6,"Acute, but ill-defined cerebrovascular disease"
+433.8,Late effects of cerebrovascular disease
+440,Atherosclerosis
+440.1,Atherosclerosis of renal artery
+440.2,Atherosclerosis of the extremities
+440.21,Atherosclerosis of native arteries of the extremities with ulceration or gangrene
+440.22,Atherosclerosis of native arteries of the extremities with intermittent claudication
+440.9,Atherosclerosis of aorta
+441,Vascular insufficiency of intestine
+441.1,Acute vascular insufficiency of intestine
+441.2,Chronic vascular insufficiency of intestine
+442,Other aneurysm
+442.1,Aortic aneurysm
+442.11,Abdominal aortic aneurysm
+442.2,Aneurysm of iliac artery
+442.3,Aneurysm of artery of lower extremity
+442.4,Arterial dissection
+442.8,Aneurysm of other specified artery
+443.1,Raynaud's syndrome
+443.7,Peripheral angiopathy in diseases classified elsewhere
+443.8,Other specified peripheral vascular diseases
+443.9,"Peripheral vascular disease, unspecified"
+444,Arterial embolism and thrombosis
+444.1,Arterial embolism and thrombosis of lower extremity artery
+444.2,Embolism and thrombosis of abdominal aorta
+444.5,Atheroembolism
+446.2,Acute febrile mucocutaneous lymph node syndrome (Kawasaki disease)
+446.3,Hypersensitivity angiitis
+446.4,Wegener's granulomatosis
+446.5,Giant cell arteritis
+446.6,Polyarteritis nodosa
+446.7,Takayasu's disease
+446.8,Thrombotic microangiopathy
+446.9,Arteritis NOS
+447,Other disorders of arteries and arterioles
+447.1,Stricture of artery
+447.7,Aortic ectasia
+448,Disease of capillaries
+450,Noninfectious disorders of lymphatic channels
+451,Phlebitis and thrombophlebitis
+451.2,Phlebitis and thrombophlebitis of lower extremities
+452,Other venous embolism and thrombosis
+452.1,Iatrogenic pulmonary embolism and infarction
+452.2,Deep vein thrombosis [DVT]
+453,Chronic venous hypertension
+454,Varicose veins
+454.1,Varicose veins of lower extremity
+454.11,"Varicose veins of lower extremity, symptomtic"
+455,Hemorrhoids
+456,Chronic venous insufficiency [CVI]
+457.2,Encounter for long-term (current) use of antiplatelets/antithrombotics
+457.3,Encounter for long-term (current) use of aspirin
+458,Hypotension
+458.1,Orthostatic hypotension
+458.2,Iatrogenic hypotension
+458.9,Hypotension NOS
+459,Other disorders of circulatory system
+459.1,Hemorrhage NOS
+459.7,Blood vessel replaced
+459.9,Circulatory disease NEC
+464,Acute sinusitis
+465,Acute upper respiratory infections of multiple or unspecified sites
+465.2,Acute pharyngitis
+465.4,Acute laryngitis and tracheitis
+470,Septal Deviations/Turbinate Hypertrophy
+471,Nasal polyps
+472,Chronic pharyngitis and nasopharyngitis
+473,Diseases of the larynx and vocal cords
+473.1,Chronic laryngitis
+473.3,Paralysis/spasm of vocal cords or larynx
+473.4,Voice disturbance
+474,Acute and chronic tonsillitis
+474.1,Acute tonsillitis
+474.2,Chronic tonsillitis and adenoiditis
+475,Chronic sinusitis
+475.9,Postnasal drip
+476,Allergic rhinitis
+477,Epistaxis or throat hemorrhage
+478,Throat pain
+479,Other upper respiratory disease
+480,Pneumonia
+480.1,Bacterial pneumonia
+480.11,Pneumococcal pneumonia
+480.12,Pseudomonal pneumonia
+480.13,MRSA pneumonia
+480.2,Viral pneumonia
+480.3,Pneumonia due to fungus (mycoses)
+480.5,Bronchopneumonia and lung abscess
+481,Influenza
+483,Acute bronchitis and bronchiolitis
+495,Asthma
+495.1,Chronic obstructive asthma
+495.11,Chronic obstructive asthma with exacerbation
+495.2,Asthma with exacerbation
+496,Chronic airway obstruction
+496.1,Emphysema
+496.2,Chronic bronchitis
+496.21,Obstructive chronic bronchitis
+496.3,Bronchiectasis
+497,Bronchitis
+498,Acute bronchospasm
+499,Cystic fibrosis
+500,Lung disease due to external agents
+500.1,Extrinsic allergic alveolitis
+501,Pneumonitis due to inhalation of food or vomitus
+502,Postinflammatory pulmonary fibrosis
+503,Pulmonary congestion and hypostasis
+504,Other alveolar and parietoalveolar pneumonopathy
+504.1,Idiopathic fibrosing alveolitis
+505,Other pulmonary inflamation or edema
+506,Empyema and pneumothorax
+507,Pleurisy; pleural effusion
+508,Pulmonary collapse; interstitial and compensatory emphysema
+509.1,Respiratory failure
+509.2,Respiratory insufficiency
+509.3,Pulmonary insufficiency or respiratory failure following trauma and surgery
+509.5,Respiratory arrest
+509.8,Dependence on respirator [Ventilator] or supplemental oxygen
+510,Other diseases of lung
+510.2,Lung transplant
+512.1,Wheezing
+512.2,Painful respiration
+512.3,Abnormal chest sounds
+512.7,Shortness of breath
+512.8,Cough
+512.9,Other dyspnea
+513,Respiratory abnormalities
+513.3,Hypoventilation
+513.31,Apnea
+513.32,Orthopnea
+513.4,Hyperventilation
+513.8,Disorders of diaphragm
+514,Abnormal findings examination of lungs
+514.1,Abnormal results of function study of pulmonary system
+514.2,Solitary pulmonary nodule
+516,Abnormal sputum
+516.1,Hemoptysis
+519,"Other diseases of respiratory system, not elsewhere classified"
+519.1,Tracheostomy complications
+519.2,Respiratory complications
+519.8,"Other diseases of respiratory system, NEC"
+519.9,Symptoms involving respiratory system and other chest symptoms
+520,Disorders of tooth development
+520.1,Hereditary disturbances in tooth structure
+520.2,Disturbances in tooth eruption
+521,Diseases of hard tissues of teeth
+521.1,Dental caries
+521.2,"Dental abrasion, erosion and attrition"
+522,Diseases of pulp and periapical tissues
+522.1,Pulpitis and necrosis of tooth pulp
+522.5,Periapical abscess
+523,Gingival and periodontal diseases
+523.1,Gingivitis
+523.31,Acute periodontitis
+523.32,Chronic periodontitis
+524,"Dentofacial anomalies, including malocclusion"
+524.3,Anomalies of tooth position/malocclusion
+525,Other diseases of the teeth and supporting structures
+525.1,Loss of teeth or edentulism
+526,Diseases of the jaws
+526.1,Cysts of the jaws
+526.3,Anomalies of jaw size/symmetry
+526.4,Temporomandibular joint disorders
+526.41,"Temporomandibular joint disorder, unspecified"
+526.42,Arthralgia/ankylosis of temporomandibular joint
+526.5,Inflammatory conditions of jaw
+526.9,Jaw disease NOS
+527,Diseases of the salivary glands
+527.1,Hypertrophy of salivary gland
+527.2,Sialoadenitis
+527.7,Disturbance of salivary secretion
+527.8,Other specified diseases of the salivary glands
+528,"Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue"
+528.1,Stomatitis and mucositis
+528.11,Stomatitis and mucositis (ulcerative)
+528.12,Oral aphthae
+528.3,Cellulitis and abscess of oral soft tissues
+528.5,Diseases of lips
+528.6,Leukoplakia of oral mucosa
+529,Diseases and other conditions of the tongue
+529.1,Glossitis
+529.6,Glossodynia
+530,Diseases of esophagus
+530.1,"Esophagitis, GERD and related diseases"
+530.11,GERD
+530.12,Ulcer of esophagus
+530.13,Barrett's esophagus
+530.14,Reflux esophagitis
+530.15,Eosinophilic esophagitis
+530.2,Esophageal bleeding (varices/hemorrhage)
+530.3,Stricture and stenosis of esophagus
+530.5,Disorders of esophageal motility
+530.6,"Diverticulum of esophagus, acquired"
+530.7,Gastroesophageal laceration-hemorrhage syndrome
+530.9,Heartburn
+531.1,Hemorrhage from gastrointestinal ulcer
+531.2,Gastric ulcer
+531.3,Duodenal ulcer
+531.4,"Peptic ulcer, site unspecified"
+531.5,Gastrojejunal ulcer
+532,Dysphagia
+535.1,Acute gastritis
+535.2,Atrophic gastritis
+535.6,Duodenitis
+535.8,Other specified gastritis
+535.9,"Gastritis and duodenitis, NOS"
+536,Disorders of function of stomach
+536.3,Gastroparesis
+536.7,"Complications of gastrostomy, colostomy and enterostomy"
+536.8,Dyspepsia and other specified disorders of function of stomach
+537,Other disorders of stomach and duodenum
+537.1,Lesions of stomach and duodenum
+539,Bariatric surgery
+540,Appendiceal conditions
+540.1,Appendicitis
+540.11,Acute appendicitis
+550,Abdominal hernia
+550.1,Inguinal hernia
+550.2,Diaphragmatic hernia
+550.3,Femoral hernia
+550.4,Umbilical hernia
+550.5,Ventral hernia
+550.6,Incisional hernia
+555.1,Regional enteritis
+555.2,Ulcerative colitis
+555.21,Ulcerative colitis (chronic)
+556,Ulceration of the lower GI tract
+556.1,Ulceration of intestine
+556.11,Angiodysplasia of intestine (without mention of hemorrhage)
+557,Intestinal malabsorption (non-celiac)
+557.1,Celiac disease
+558,Noninfectious gastroenteritis
+559,Ileostomy status
+560.1,Paralytic ileus
+560.2,Impaction of intestine
+560.3,Peritoneal or intestinal adhesions
+560.4,Other intestinal obstruction
+561,Symptoms involving digestive system
+561.1,Diarrhea
+561.2,Flatulence
+562.1,Diverticulosis
+562.2,Diverticulitis
+563,Constipation
+564,Functional digestive disorders
+564.1,Irritable Bowel Syndrome
+564.8,Abnormal findings on exam of gastrointestinal tract/ abdominal area
+564.9,Personal history of diseases of digestive system
+565,Anal and rectal conditions
+565.1,Anal and rectal polyp
+567,Peritonitis and retroperitoneal infections
+568,Other disorders of peritoneum
+568.1,Peritoneal adhesions (postoperative) (postinfection)
+569,Other disorders of intestine
+569.1,Toxic gastroenteritis and colitis
+569.2,Gastrointestinal complications
+571.5,Other chronic nonalcoholic liver disease
+571.51,Cirrhosis of liver without mention of alcohol
+571.6,Primary biliary cirrhosis
+571.8,Liver abscess and sequelae of chronic liver disease
+571.81,Portal hypertension
+572,Ascites (non malignant)
+573,Other disorders of liver
+573.1,Chronic passive congestion of liver
+573.2,Liver replaced by transplant
+573.3,Hepatomegaly
+573.4,Acute and subacute necrosis of liver
+573.5,Jaundice (not of newborn)
+573.6,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]
+573.7,Abnormal results of function study of liver
+573.9,Abnormal serum enzyme levels
+574.1,Cholelithiasis
+574.11,Cholelithiasis with acute cholecystitis
+574.12,Cholelithiasis with other cholecystitis
+574.2,Calculus of bile duct
+574.3,Cholecystitis without cholelithiasis
+575.1,Cholangitis
+575.2,Obstruction of bile duct
+575.6,Cholesterolosis of gallbladder
+575.7,Other disorders of gallbladder
+575.8,Other disorders of biliary tract
+575.9,Nonspecific abnormal findings on radiological and other examination of biliary tract
+577,Diseases of pancreas
+577.1,Acute pancreatitis
+577.2,Chronic pancreatitis
+577.3,Cyst and pseudocyst of pancreas
+578.1,Hematemesis
+578.2,Blood in stool
+578.8,Hemorrhage of rectum and anus
+578.9,Hemorrhage of gastrointestinal tract
+579,Other symptoms involving abdomen and pelvis
+579.2,Splenomegaly
+579.8,Nonspecific abnormal findings in stool contents
+580.11,Proliferative glomerulonephritis
+580.12,Non-proliferative glomerulonephritis
+580.13,"Acute glomerulonephritis, NOS"
+580.14,"Chronic glomerulonephritis, NOS"
+580.2,Nephrotic syndrome without mention of glomerulonephritis
+580.3,Nephritis and nephropathy without mention of glomerulonephritis
+580.31,Nephritis and nephropathy in diseases classified elsewhere
+580.32,Nephritis and nephropathy with pathological lesion
+580.4,"Renal sclerosis, NOS"
+585.1,Acute renal failure
+585.2,Renal failure NOS
+585.3,Chronic renal failure [CKD]
+585.31,Renal dialysis
+585.32,End stage renal disease
+585.33,"Chronic Kidney Disease, Stage III"
+585.34,"Chronic Kidney Disease, Stage IV"
+585.4,"Chronic kidney disease, Stage I or II"
+586,Other disorders of the kidney and ureters
+586.11,Small kidney
+586.12,Vesicoureteral reflux
+586.2,"Cyst of kidney, acquired"
+586.3,Vascular disorders of kidney/hypertrophy
+586.4,Stricture/obstruction of ureter
+587,Kidney replaced by transpant
+588,Disorders resulting from impaired renal function
+588.1,Renal osteodystrophy
+588.2,Secondary hyperparathyroidism (of renal origin)
+589,Abnormal results of function study of kidney
+590,Pyelonephritis
+591,Urinary tract infection
+592.1,Cystitis
+592.11,Acute cystitis
+592.12,Chronic cystitis
+592.13,Chronic interstitial cystitis
+592.2,Urethritis and urethral syndrome
+593,Hematuria
+593.1,Gross hematuria
+593.2,Microscopic hematuria
+594,Urinary calculus
+594.1,Calculus of kidney
+594.2,Calculus of lower urinary tract
+594.3,Calculus of ureter
+594.8,Renal colic
+595,Hydronephrosis
+596,Other disorders of bladder
+596.1,Bladder neck obstruction
+596.5,Functional disorders of bladder
+597,Other disorders of urethra and urinary tract
+597.1,Urethral stricture (not specified as infectious)
+597.2,Urinary complications NEC
+597.8,Urethral hypermobility/ISD
+598,Abnormal findings on examination of urine
+598.4,Other cells and casts in urine
+598.9,Other nonspecific findings on examination of urine
+599,Other symptoms/disorders or the urinary system
+599.1,Urinary obstruction
+599.2,Retention of urine
+599.3,Dysuria
+599.4,Urinary incontinence
+599.5,Frequency of urination and polyuria
+599.6,Oliguria and anuria
+599.7,Urethral discharge
+599.8,Other symptoms involving urinary system
+599.9,Other abnormality of urination
+600,Hyperplasia of prostate
+601.1,Prostatitis
+601.11,Acute prostatitis
+601.12,Chronic prostatitis
+601.3,Orchitis and epididymitis
+601.4,Balanoposthitis
+601.8,Other inflammatory disorders of male genital organs
+602,Other disorders of prostate
+603,Other disorders of testis
+603.1,Hydrocele
+603.2,Spermatocele
+604,Disorders of penis
+604.1,Redundant prepuce and phimosis/BXO
+604.3,Peyronie's disease
+605,Erectile dysfunction [ED]
+608,Other disorders of male genital organs
+609.11,Azoospermia and oligospermia
+609.2,Abnormal spermatozoa
+610.1,Cystic mastopathy
+610.3,Fibrosclerosis of breast
+610.4,Benign neoplasm of breast
+610.8,Other specified benign mammary dysplasias
+611,Abnormal findings on mammogram or breast exam
+611.1,Abnormal mammogram
+611.11,Mammographic microcalcification
+611.3,Lump or mass in breast
+612.1,Galactorrhea
+612.2,Hypertrophy of breast (Gynecomastia)
+613.1,Inflammatory disease of breast
+613.5,Mastodynia
+613.7,Other signs and symptoms in breast
+613.8,Other specified disorders of breast
+613.9,Breast disorder NOS
+614,Inflammatory diseases of female pelvic organs
+614.1,"Pelvic peritoneal adhesions, female (postoperative) (postinfection)"
+614.3,Pelvic inflammatory disease (PID)
+614.31,Acute inflammatory pelvic disease
+614.32,Chronic inflammatory pelvic disease
+614.33,"Pelvic inflammatory disease, NOS"
+614.4,"Inflammatory diseases of uterus, except cervix"
+614.5,"Inflammatory disease of cervix, vagina, and vulva"
+614.51,Cervicitis and endocervicitis
+614.52,Vaginitis and vulvovaginitis
+614.53,Cyst or abscess of Bartholin's gland
+614.54,Abscess or ulceration of vulva
+615,Endometriosis
+617,"Disorders secondary to childbirth, surgery, trauma"
+618,Genital prolapse
+618.1,Prolapse of vaginal walls
+618.2,Uterine/Uterovaginal prolapse
+618.5,Prolapse of vaginal vault after hysterectomy
+619,Noninflammatory female genital disorders
+619.1,"Noninflammatory disorders of ovary, fallopian tube, and broad ligament"
+619.2,"Disorders of uterus, NEC"
+619.3,Noninflammatory disorders of cervix
+619.4,Noninflammatory disorders of vagina
+619.5,Noninflammatory disorders of vulva and perineum
+620,Dysplasia of female genital organs
+620.1,Dysplasia of cervix
+621,Endometrial hyperplasia
+622,Polyp of female genital organs
+622.1,Polyp of corpus uteri
+622.2,Mucous polyp of cervix
+623,Hypertrophy of female genital organs
+624,Symptoms involving female genital tract
+624.2,Atrophy of female genital tract
+624.9,"stress incontinence, female"
+625,Pain and other symptoms associated with female genital organs
+625.1,Dyspareunia
+626,Disorders of menstruation and other abnormal bleeding from female genital tract
+626.1,Irregular menstrual cycle/bleeding
+626.11,Absent or infrequent menstruation
+626.12,Excessive or frequent menstruation
+626.13,Irregular menstrual cycle
+626.14,Irregular menstrual bleeding
+626.2,Dysmenorrhea
+626.21,Mittelschmerz
+626.4,Premenstrual tension syndromes
+626.8,"Infertility, female"
+627,Menopausal and postmenopausal disorders
+627.1,Postmenopausal bleeding
+627.2,Symptomatic menopause
+627.21,Symptomatic artificial menopause
+627.22,Need for Hormone replacement therapy (postmenopausal)
+627.3,Postmenopausal atrophic vaginitis
+627.4,Premenopausal menorrhagia
+627.5,Premature menopause and other ovarian failure
+628,Ovarian cyst
+634,Miscarriage; stillbirth
+634.1,Missed abortion/Hydatidiform mole
+634.3,Ectopic pregnancy
+635.2,"Antepartum hemorrhage, abruptio placentae, and placenta previa"
+635.3,Placenta previa and abruptio placenta
+636.2,Early onset of delivery
+636.3,Hemorrhage in early pregnancy
+637,Short gestation; low birth weight; and fetal growth retardation
+638,Other high-risk pregnancy
+639,Complications following abortion or ectopic and molar pregnancies
+642,"Hypertension complicating pregnancy, childbirth, and the puerperium"
+642.1,Preeclampsia and eclampsia
+643,Excessive vomiting in pregnancy
+644,Anemia during pregnancy
+645,Late pregnancy and failed induction
+646,Other complications of pregnancy NEC
+647,Infectious and parasitic complications affecting pregnancy
+647.1,Infections of genitourinary tract during pregnancy
+647.3,Major puerperal infection
+649,"Other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium"
+649.1,Diabetes or abnormal glucose tolerance complicating pregnancy
+651,Multiple gestation
+652,Malposition and malpresentation of fetus or obstruction
+653,Problems associated with amniotic cavity and membranes
+654,Other and unspecified complications of birth; puerperium affecting management of mother
+654.1,"Abnormality of organs and soft tissues of pelvis complicating pregnancy, childbirth, or the puerperium"
+655,Known or suspected fetal abnormality affecting management of mother
+656,Other perinatal conditions of fetus or newborn
+656.6,Perinatal disorders of digestive system
+658,Maternal complication of pregnancy affecting fetus or newborn
+661,Fetal distress and abnormal forces of labor
+665,Obstetrical/birth trauma
+668,Complications of the administration of anesthetic or other sedation in labor and delivery
+669,Complications of labor and delivery NEC
+671,Venous/cerebrovascular complications embolism in pregnancy and the puerperium
+674,Other complications of the puerperium NEC
+681,Superficial cellulitis and abscess
+681.1,Cellulitis and abscess of fingers/toes
+681.2,Cellulitis and abscess of face/neck
+681.3,Cellulitis and abscess of arm/hand
+681.5,"Cellulitis and abscess of leg, except foot"
+681.6,"Cellulitis and abscess of foot, toe"
+681.7,Cellulitis and abscess of trunk
+686,Other local infections of skin and subcutaneous tissue
+686.1,Carbuncle and furuncle
+686.2,Impetigo
+686.3,Pilonidal cyst
+686.4,Pyogenic granuloma
+686.5,Pyoderma
+687,Symptoms affecting skin
+687.1,Rash and other nonspecific skin eruption
+687.2,"Localized superficial swelling, mass, or lump"
+687.3,Changes in skin texture
+687.4,Disturbance of skin sensation
+689,Disorder of skin and subcutaneous tissue NOS
+690.1,Seborrheic dermatitis
+691,Congenital anomalies of skin
+691.1,Ichthyosis congenita
+691.3,Congenital pigmentary anomalies of skin
+694.1,Vitiligo
+694.2,Other dyschromia
+694.3,Vascular disorders of skin
+695.1,Toxic erythema
+695.2,Bullous dermatoses
+695.21,Dermatitis herpetiformis
+695.22,Pemphigus and pemphigoid
+695.3,Rosacea
+695.4,Lupus (localized and systemic)
+695.41,Cutaneous lupus erythematosus
+695.42,Systemic lupus erythematosus
+695.7,Prurigo and Lichen
+695.8,Other specified erythematous conditions
+695.81,Erythema nodosum
+695.9,Unspecified erythematous condition
+696.2,Parapsoriasis
+696.3,Pityriasis
+696.41,Psoriasis vulgaris
+696.42,Psoriatic arthropathy
+697,Sarcoidosis
+698,Pruritus and related conditions
+700,Corns and callosities
+701,Other hypertrophic and atrophic conditions of skin
+701.1,"Keratoderma, acquired"
+701.2,Scar conditions and fibrosis of skin
+701.3,Circumscribed scleroderma
+701.4,Keloid scar
+701.5,Abnormal granulation tissue
+701.6,Acquired acanthosis nigricans
+702,Degenerative skin conditions and other dermatoses
+702.1,Actinic keratosis
+702.2,Seborrheic keratosis
+702.4,Degenerative skin disorders
+703,"Diseases of nail, NOS"
+703.1,Ingrowing nail
+704,Diseases of hair and hair follicles
+704.1,Alopecia
+704.11,Alopecia Areata
+704.2,Hirsutism
+704.8,Other specified diseases of hair and hair follicles
+705,Disorders of sweat glands
+705.1,Dyshidrosis
+705.3,Hidradenitis
+705.8,Hyperhidrosis
+706.1,Acne
+706.2,Sebaceous cyst
+706.8,Other specified diseases of sebaceous glands
+707.1,Decubitus ulcer
+707.2,Chronic ulcer of leg or foot
+707.3,Chronic ulcer of unspecified site
+709.2,Sicca syndrome
+709.3,Systemic sclerosis
+709.4,Polymyositis
+709.5,Dermatomyositis
+709.6,Other specified diffuse diseases of connective tissue
+709.7,Unspecified diffuse connective tissue disease
+710,"Osteomyelitis, periostitis, and other infections involving bone"
+710.11,Acute osteomyelitis
+710.12,Chronic osteomyelitis
+710.19,Unspecified osteomyelitis
+710.2,Periostitis
+711.1,Pyogenic arthritis
+711.2,Reiter's disease
+711.3,Behcet's syndrome
+712,Infective connective tissue disorders
+713,Arthropathy associated with other disorders classified elsewhere
+713.5,Arthropathy associated with neurological disorders
+714,Rheumatoid arthritis and other inflammatory polyarthropathies
+714.1,Rheumatoid arthritis
+714.2,Juvenile rheumatoid arthritis
+715,Other inflammatory spondylopathies
+715.1,Sacroiliitis NEC
+715.2,Ankylosing spondylitis
+715.3,Spinal enthesopathy
+716,Other arthropathies
+716.1,Unspecified polyarthropathy or polyarthritis
+716.9,Arthropathy NOS
+717,Polymyalgia Rheumatica
+720,Spinal stenosis
+720.1,Spinal stenosis of lumbar region
+721,Spondylosis and allied disorders
+721.1,Spondylosis without myelopathy
+721.2,Spondylosis with myelopathy
+721.8,Other allied disorders of spine
+722.1,Displacement of intervertebral disc
+722.3,Schmorl's nodes
+722.6,Degeneration of intervertebral disc
+722.7,Intervertebral disc disorder with myelopathy
+722.8,Postlaminectomy syndrome
+722.9,Other and unspecified disc disorder
+723,Other disorders of cervical region
+723.1,Torticollis
+724.1,Disorders of sacrum
+724.2,Disorders of coccyx
+724.8,Other symptoms referable to back
+724.9,Other unspecified back disorders
+726,Peripheral enthesopathies and allied syndromes
+726.1,Enthesopathy
+726.2,Synoviopathy
+726.3,Bursitis
+726.4,Calcaneal spur; Exostosis NOS
+727,"Other disorders of synovium, tendon, and bursa"
+727.1,Synovitis and tenosynovitis
+727.2,Bursitis disorders
+727.4,"Ganglion and cyst of synovium, tendon, and bursa"
+727.5,Rupture of synovium
+727.6,"Rupture of tendon, nontraumatic"
+727.7,Contracture of tendon (sheath)
+728,"Disorders of muscle, ligament, and fascia"
+728.1,Muscular calcification and ossification
+728.2,Laxity of ligament or hypermobility syndrome
+728.7,Fasciitis
+728.71,Contracture of palmar fascia [Dupuytren's disease]
+729,Other disorders of soft tissues
+729.1,"Rheumatism, unspecified and fibrositis"
+729.3,Panniculitis
+729.7,Nontraumatic compartment syndrome
+731,Osteitis deformans and osteopathies associated with other disorders classified elsewhere
+731.1,Osteitis deformans [Paget's disease of bone]
+732.1,Juvenile osteochondrosis
+733,Other disorders of bone and cartilage
+733.2,Cyst of bone
+733.4,Aseptic necrosis of bone
+733.6,Costochondritis
+733.8,Malunion and nonunion of fracture
+733.9,Chondromalacia
+735,Acquired foot deformities
+735.1,Flat foot
+735.2,Acquired toe deformities
+735.21,Hammer toe (acquired)
+735.3,Hallux valgus (Bunion)
+736,Other acquired deformities of limbs
+736.1,Acquired deformities of forearm
+736.2,Acquired deformities of finger
+736.3,Acquired deformities of hip
+736.4,Genu valgum or varum (acquired)
+736.5,Acquired deformities of knee
+736.6,Unequal leg length (acquired)
+737,Curvature of spine
+737.1,Kyphosis (acquired)
+737.2,Lordosis (acquired)
+737.3,Kyphoscoliosis and scoliosis
+738,Other acquired musculoskeletal deformity
+738.4,Acquired spondylolisthesis
+739,Contracture of joint
+740,Osteoarthrosis
+740.1,Osteoarthritis; localized
+740.11,"Osteoarthrosis, localized, primary"
+740.12,"Osteoarthrosis, localized, secondary"
+740.2,"Osteoarthrosis, generalized"
+740.3,"Osteoarthrosis involving more than one site, but not specified as generalized"
+740.9,Osteoarthrosis NOS
+741,Symptoms and disorders of the joints
+741.1,Ankylosis of joint
+741.2,Stiffness of joint
+741.3,Difficulty in walking
+741.4,Joint effusions
+741.5,Hemarthrosis
+742,"Derangement of joint, non-traumatic"
+742.1,Loose body in joint
+742.2,"Pathological, developmental or recurrent dislocation"
+742.8,Articular cartilage disorder
+742.9,Other derangement of joint
+743.11,Osteoporosis NOS
+743.12,Senile osteoporosis
+743.13,Other specified osteoporosis
+743.2,Pathologic fracture
+743.21,Pathologic fracture of vertebrae
+743.22,Pathologic fracture of femur
+743.4,Stress fracture
+743.9,Osteopenia or other disorder of bone and cartilage
+745,Pain in joint
+747,Cardiac and circulatory congenital anomalies
+747.1,Cardiac congenital anomalies
+747.11,Cardiac shunt/ heart septal defect
+747.12,Valvular heart disease/ heart chambers
+747.13,Congenital anomalies of great vessels
+747.2,Congenital anomalies of peripheral vascular system
+748,"Anomalies of respiratory system, congenital"
+749,Congenital anomalies of face and neck
+749.1,Cleft palate
+749.2,Congenital anomalies of skull and face bones
+750,Digestive congenital anomalies
+750.1,Upper gastrointestinal congenital anomalies
+750.11,Esophageal atresia/tracheoesophageal fistula
+750.13,Congenital anomalies of mouth/tongue
+750.14,Congenital anomalies of esophagus
+750.15,Congenital anomalies of stomach
+750.2,Lower gastrointestinal congenital anomalies
+750.21,Congenital anomalies of intestine
+750.22,"Congenital anomaly of gallbladder, bile ducts, liver, pancreas"
+751,Genitourinary congenital anomalies
+751.11,Congenital anomalies of female genital organs
+751.12,Congenital anomalies of male genital organs
+751.2,Congenital anomalies of urinary system
+751.21,Cystic kidney disease
+751.22,Other specified congenital anomalies of kidney
+751.3,Obstructive genitourinary defect
+752,Nervous system congenital anomalies
+752.1,Neural tube defects
+752.11,Spina bifida
+752.2,Other specified congenital anomalies of nervous system
+753,Congenital anomalies of the eye
+753.1,Congenital cataract and lens anomalies
+753.2,Congenital anomalies of posterior segment of eye
+754,Congenital musculoskeletal deformities of spine
+754.1,"Lumbosacral spondylolysis, congenital"
+754.2,"Spondylolisthesis, congenital"
+755.1,Congenital deformities of feet
+755.6,"Other congenital anomalies of lower limb, including pelvic girdle"
+755.61,Congenital hip dysplasia and deformity
+756,Other congenital musculoskeletal anomalies
+756.1,Congenital anomalies of abdominal wall; diaphram
+756.21,Pectus excavatum
+756.22,Pectus carinatum
+756.3,"Congenital anomalies of muscle, tendon, fascia, and connective tissue"
+756.5,Congenital osteodystrophies
+757,Congenital anomalies of the integument
+758,Chromosomal anomalies and genetic disorders
+758.1,Chromosomal anomalies
+759,Other and unspecified congenital anomalies
+759.1,"Anomalies of endocrine glands, congenital"
+760,Back pain
+761,Cervicalgia
+763,"Thoracic or lumbosacral neuritis or radiculitis, unspecified"
+764,Sciatica
+765,Cervical radiculitis
+766,"Neuralgia, neuritis, and radiculitis NOS"
+769,Nonallopathic lesions NEC
+770,Myalgia and myositis unspecified
+771,Musculoskeletal symptoms referable to limbs
+771.1,Swelling of limb
+771.2,Cramp of limb
+772,Symptoms of the muscles
+772.1,Muscular wasting and disuse atrophy
+772.2,Spasm of muscle
+772.3,Muscle weakness
+772.4,Rhabdomyolysis
+772.6,Facial weakness
+773,Pain in limb
+780,Hypothermia/Chills
+781,Symptoms involving nervous and musculoskeletal systems
+781.1,Loss of height
+781.2,Abnormal posture
+782.3,Edema
+782.6,Pallor and flushing
+783,Fever of unknown origin
+783.1,Postprocedural fever
+785,Abdominal pain
+788,Syncope and collapse
+789,Nausea and vomiting
+789.1,Persistent vomiting
+790,Nonspecific findings on examination of blood
+790.1,Elevated sedimentation rate
+790.6,Other abnormal blood chemistry
+790.8,Elevated C-reactive protein (CRP)
+790.9,Abnormal arterial blood gases
+791,Gangrene
+792,Abnormal Papanicolaou smear of cervix and cervical HPV
+792.1,Papanicolaou smear of cervix or vagina with atypical squamous cells
+793,Nonspecific abnormal findings on radiological and other examination of musculoskeletal system
+793.2,"Nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)"
+794,"Abnormal results of other function studies (bladder, pancreas, placenta, spleen, etc)"
+795,"Other and nonspecific abnormal cytological, histological and immunological findings"
+795.8,Abnormal tumor markers
+795.81,Elevated carcinoembryonic antigen [CEA]
+795.82,Elevated cancer antigen 125 [CA 125]
+796,Elevated prostate specific antigen [PSA]
+797,Shock
+797.1,Cardiogenic shock
+798,Malaise and fatigue
+798.1,Chronic fatigue syndrome
+799,Debility unspecified
+800,Fracture of lower limb
+800.1,Fracture of neck of femur
+800.2,Fracture of unspecified part of femur
+800.3,Fracture of tibia and fibula
+800.4,Fracture of patella
+801,Fracture of ankle and foot
+801.1,Fracture of foot
+802,Fracture of pelvis
+803,Fracture of upper limb
+803.1,Fracture of humerus
+803.2,Fracture of radius and ulna
+803.21,Colles' fracture
+803.3,Fracture of clavicle or scapula
+804,Fracture of hand or wrist
+805,Fracture of vertebral column without mention of spinal cord injury
+807,Fracture of ribs
+809,Fracture of unspecified bones
+816,Cerebral laceration and contusion
+817,Concussion
+818,Intracranial hemorrhage (injury)
+818.1,Subdural hemorrhage (injury)
+818.2,Subarachnoid hemorrhage (injury)
+819,Skull and face fracture and other intercranial injury
+830,Dislocation
+835,Internal derangement of knee
+840,Sprains and strains
+840.1,Muscle/tendon sprain
+840.2,Rotator cuff (capsule) sprain
+840.3,Joint/ligament sprain
+841,Sprains and strains of back and neck
+842,Other sprains and strains
+850,Hemorrhage or hematoma complicating a procedure
+851,Complications of transplants and reattached limbs
+853,Complication of colostomy or enterostomy
+854,"Complications of cardiac/vascular device, implant, and graft"
+855,"Complication of nervous system device, implant, and graft"
+856,Vascular complications of surgery and medical procedures
+857,"Mechanical complication of unspecified genitourinary device, implant, and graft"
+858,Complication of internal orthopedic device
+859,Complication due to other implant and internal device
+860,Bone marrow or stem cell transplant
+870,Open wounds of head; neck; and trunk
+870.1,Open wound or laceration of eye or eyelid
+870.2,Open wound of ear
+870.3,Other open wound of head and face
+870.4,Open wound of nose and sinus
+870.5,Open wound of lip and mouth
+870.6,Open wound of neck
+870.8,Open wound of genital organs
+871,Open wounds of extremities
+871.1,Open wound of hand except finger(s)
+871.2,Open wound of finger(s)
+871.3,Open wound of foot except toe(s) alone
+871.4,Open wound of toe(s)
+872,Traumatic amputation
+873,Broken tooth
+874,Complication of amputation stump
+875,Non-healing surgical wound
+876,Posttraumatic wound infection not elsewhere classified
+907,Injuries to the nervous system
+910,"Superficial injury, infected"
+911,Blister
+912,Insect bite
+913,Toxic effect of venom
+915,Superficial injury without mention of infection
+916,Contusion
+930,Allergic reaction to food
+931,Contact dermatitis and other eczema due to plants [except food]
+938,Dermatitis due to solar radiation
+938.1,Acute dermatitis due to solar radiation
+938.2,Chronic dermatitis due to solar radiation
+939,Atopic/contact dermatitis due to other or unspecified
+941,Adverse reaction to serum or vaccine
+942,Infusion and transfusion reaction
+946,Anaphylactic shock NOS
+947,Urticaria
+949,"Allergies, other"
+949.1,Diaper or napkin rash
+952,Spinal cord injury without evidence of spinal bone injury
+957,Injury to other and unspecified nerves
+958,Certain early complications of trauma or procedure
+958.1,Postoperative shock
+958.2,Traumatic and surgical subcutaneous emphysema
+960,Poisoning by antibiotics
+960.1,Adverse effects of antibacterials (not penicillins)
+960.2,Allergy/adverse effect of penicillin
+960.3,Poisoning by antifungal antibiotics
+961,Poisoning by other anti-infectives
+961.1,Poisoning/allergy of sulfonamides
+962,Poisoning by hormones and synthetic substitutes
+962.1,Adrenal cortical steroids causing adverse effects in therapeutic use
+962.2,Insulins and antidiabetic agents causing adverse effects in therapeutic use
+962.3,Hormones and synthetic substitutes causing adverse effects in therapeutic use
+963,Poisoning by primarily systemic agents
+963.1,Antineoplastic and immunosuppressive drugs causing adverse effects
+964,Poisoning by agents primarily affecting blood constituents
+964.1,Anticoagulants causing adverse effects
+965,"Poisoning by analgesics, antipyretics, and antirheumatics"
+965.1,Opiates and related narcotics causing adverse effects in therapeutic use
+965.2,Antirheumatics causing adverse effects in therapeutic use
+965.3,Salicylates causing adverse effects in therapeutic use
+966,Poisoning by anticonvulsants and anti-Parkinsonism drugs
+967,Adverse effects of sedatives or other central nervous system depressants and anesthetics
+969,Poisoning by psychotropic agents
+971,Poisoning by drugs primarily affecting the autonomic nervous system
+972,Poisoning by agents primarily affecting the cardiovascular system
+972.1,Cardiac rhythm regulators causing adverse effects in therapeutic use
+972.6,Antihypertensive agents causing adverse effects
+973,Poisoning by agents primarily affecting the gastrointestinal system
+974,"Poisoning by water, mineral, and uric acid metabolism drugs"
+975,Poisoning by agents primarily acting on the smooth and skeletal muscles and respiratory system
+976,"Poisoning by agents primarily affecting skin & mucous membrane, ophthalmological, otorhinolaryngological, & dental drugs"
+977,Personal history of allergy to medicinal agents
+979,Adverse drug events and drug allergies
+980,Encounter for long-term (current) use of antibiotics
+981,Toxic effect of (non-ethyl) alcohol and petroleum and other solvents
+985,Toxic effect of other metals
+987,"Toxic effect of other gases, fumes, or vapors"
+988,Toxic effect of noxious substances eaten as food
+989,"Toxic effect of other substances, chiefly nonmedicinal as to source"
+990,Effects radiation NOS
+994.1,Systemic inflammatory response syndrome (SIRS)
+994.2,Sepsis
+994.21,Septic shock
+1000,Burns
+1001,Foreign body injury
+1002,"Symptoms concerning nutrition, metabolism, and development"
+1004,Other signs and symptoms involving emotional state
+1005,Other symptoms
+1006,Crushing injury
+1007,Injury to blood vessels
+1008,Crushing or internal injury to organs
+1009,"Injury, NOS"
+1010,Other tests
+1010.1,screening for infectious and parasitic diseases
+1010.2,screening for malignant neoplasms
+1010.3,screening for other diseases and disorders
+1010.4,Genetic Test
+1010.5,"potential health hazards related to communicable diseases"
+1010.6,Persons encountering health services in circumstances related to reproduction
+1010.7,"Persons with potential health hazards related to socioeconomic, psychosocial, and other circumstances"
+1011,Complications of surgical and medical procedures
+1012,Late effect
+1013,Asphyxia and hypoxemia
+1014,"Effects of heat, cold and air pressure"
+1015,Effects of other external causes
+1019,Other ill-defined and unknown causes of morbidity and mortality
+1089,Acquired absence of limb
+1090,Acquired absence of organs
+1100,Family history
