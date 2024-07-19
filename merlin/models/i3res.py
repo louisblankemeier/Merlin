@@ -1,3 +1,5 @@
+""" Code adapted from https://github.com/hassony2/inflated_convnets_pytorch """
+
 import math
 
 import torch
@@ -55,7 +57,6 @@ class I3ResNet(torch.nn.Module):
         skips = []
         x = x.permute(0, 1, 4, 2, 3)
         x = torch.cat((x, x, x), dim=1)
-        # x = window_level.apply_window_level(x)
         if self.return_skips:
             skips.append(x.permute(0, 1, 3, 4, 2))
         x = self.conv1(x)
@@ -65,12 +66,6 @@ class I3ResNet(torch.nn.Module):
             skips.append(x.permute(0, 1, 3, 4, 2))
         x = self.maxpool(x)
 
-        # if x.requires_grad:
-        #     x = checkpoint.checkpoint(self.layer1, x)
-        #     x = checkpoint.checkpoint(self.layer2, x)
-        #     x = checkpoint.checkpoint(self.layer3, x)
-        #     x = checkpoint.checkpoint(self.layer4, x)
-        # else:
         x = checkpoint.checkpoint(self.layer1, x)
         if self.return_skips:
             skips.append(x.permute(0, 1, 3, 4, 2))
@@ -158,18 +153,7 @@ class Bottleneck3d(torch.nn.Module):
             out = self.conv3(out)
             out = self.bn3(out)
             return out
-
-        # residual = x
-        # out = self.conv1(x)
-        # out = self.bn1(out)
-        # out = self.relu(out)
-
-        # out = self.conv2(out)
-        # out = self.bn2(out)
-        # out = self.relu(out)
-
-        # out = self.conv3(out)
-        # out = self.bn3(out)
+        
         residual = x
 
         if self.downsample is not None:

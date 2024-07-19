@@ -1,3 +1,5 @@
+""" Code adapted from https://github.com/hassony2/inflated_convnets_pytorch """
+
 import torch
 from torch.nn import Parameter
 
@@ -9,13 +11,8 @@ def inflate_conv(
     # or no padding in time dimension
     if conv2d.kernel_size[0] == 7:
         kernel_dim = (3, 7, 7)
-        # time_dim = 7
         padding = (1, 3, 3)
         stride = (1, 2, 2)
-        # kernel_dim = (7, 7, 7)
-        # time_dim = 7
-        # padding = (3, 3, 3)
-        # stride = (2, 2, 2)
         dilation = (1, 1, 1)
         conv3d = torch.nn.Conv3d(
             conv2d.in_channels,
