@@ -29,6 +29,5 @@
     pip install -e .
     ```
 
-
 ## Running inference on a CT scan
 

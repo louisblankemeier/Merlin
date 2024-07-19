@@ -3,6 +3,7 @@ import copy
 import torch
 from torch import nn
 from transformers import AutoModel, AutoTokenizer
+from nltk.tokenize import wordpunct_tokenize
 import torchvision
 
 from merlin.models import i3res
@@ -12,7 +13,9 @@ class ImageEncoder(nn.Module):
     def __init__(self):
         super().__init__()
         resnet = torchvision.models.resnet152(pretrained=True)
-        self.i3_resnet = i3res.I3ResNet(copy.deepcopy(resnet), class_nb=1692, conv_class=True)
+        self.i3_resnet = i3res.I3ResNet(
+            copy.deepcopy(resnet), class_nb=1692, conv_class=True
+        )
 
     def forward(self, image):
         contrastive_features, ehr_features = self.i3_resnet(image)
@@ -22,15 +25,13 @@ class ImageEncoder(nn.Module):
 class TextEncoder(nn.Module):
     def __init__(self):
         super().__init__()
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            "yikuan8/Clinical-Longformer"
-        )
+        self.tokenizer = AutoTokenizer.from_pretrained("yikuan8/Clinical-Longformer")
         self.text_encoder = AutoModel.from_pretrained("yikuan8/Clinical-Longformer")
         self.text_encoder.gradient_checkpointing_enable()
         self.linear_layer = nn.Linear(768, 512)
 
     def forward(self, text_labels):
-        text_labels = [text.lower() for text in text_labels]
+        text_labels = [sanitize_report(text) for text in text_labels]
         inputs = self.tokenizer(
             text_labels,
             return_tensors="pt",
@@ -68,3 +69,8 @@ class MerlinArchitecture(nn.Module):
             ehr_features,
             text_features,
         )
+
+
+def sanitize_report(report):
+    report = report.lower()
+    return " ".join(wordpunct_tokenize(report))

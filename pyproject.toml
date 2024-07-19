@@ -17,6 +17,7 @@ dependencies = [
     "transformers==4.38.2",
     "torchvision==0.16.2",
     "nibabel",
+    "nltk",
 ]
 
 [tool.setuptools.packages.find]

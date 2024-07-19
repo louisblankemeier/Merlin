@@ -2,12 +2,9 @@ import torch
 from torch.nn import Parameter
 
 
-def inflate_conv(conv2d,
-                 time_dim=3,
-                 time_padding=0,
-                 time_stride=1,
-                 time_dilation=1,
-                 center=False):
+def inflate_conv(
+    conv2d, time_dim=3, time_padding=0, time_stride=1, time_dilation=1, center=False
+):
     # To preserve activations, padding should be by continuity and not zero
     # or no padding in time dimension
     if conv2d.kernel_size[0] == 7:
@@ -26,7 +23,8 @@ def inflate_conv(conv2d,
             kernel_dim,
             padding=padding,
             dilation=dilation,
-            stride=stride)
+            stride=stride,
+        )
         # Repeat filter time_dim times along time dimension
         weight_2d = conv2d.weight.data
         if center:
@@ -52,7 +50,8 @@ def inflate_conv(conv2d,
             kernel_dim,
             padding=padding,
             dilation=dilation,
-            stride=stride)
+            stride=stride,
+        )
         # Repeat filter time_dim times along time dimension
         weight_2d = conv2d.weight.data
         if center:
@@ -75,8 +74,7 @@ def inflate_linear(linear2d, time_dim):
     Args:
         time_dim: final time dimension of the features
     """
-    linear3d = torch.nn.Linear(linear2d.in_features * time_dim,
-                               linear2d.out_features)
+    linear3d = torch.nn.Linear(linear2d.in_features * time_dim, linear2d.out_features)
     weight3d = linear2d.weight.data.repeat(1, time_dim)
     weight3d = weight3d / time_dim
 
@@ -96,11 +94,7 @@ def inflate_batch_norm(batch2d):
     return batch2d
 
 
-def inflate_pool(pool2d,
-                 time_dim=1,
-                 time_padding=0,
-                 time_stride=None,
-                 time_dilation=1):
+def inflate_pool(pool2d, time_dim=1, time_padding=0, time_stride=None, time_dilation=1):
     if isinstance(pool2d, torch.nn.AdaptiveAvgPool2d):
         pool3d = torch.nn.AdaptiveAvgPool3d((1, 1, 1))
     else:
@@ -116,10 +110,13 @@ def inflate_pool(pool2d,
                 padding=padding,
                 dilation=dilation,
                 stride=stride,
-                ceil_mode=pool2d.ceil_mode)
+                ceil_mode=pool2d.ceil_mode,
+            )
         elif isinstance(pool2d, torch.nn.AvgPool2d):
             pool3d = torch.nn.AvgPool3d(kernel_dim, stride=stride)
         else:
-            raise ValueError('{} is not among known pooling classes'.format(type(pool2d)))
+            raise ValueError(
+                "{} is not among known pooling classes".format(type(pool2d))
+            )
 
     return pool3d
