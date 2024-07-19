@@ -9,11 +9,13 @@ model.eval()
 model.cuda()
 
 data_path = "/dataNAS/people/lblankem/abct_imaging_data/"
-nifti_path = os.path.join(data_path, "abct_compressed/AC423ba7a-AC423bdbf_1.2.840.4267.32.338500632115223329272074781821867465077_1.2.840.4267.32.187726110209194199958290062640099007995.nii.gz")
+nifti_path1 = os.path.join(data_path, "abct_compressed/AC423ba7a-AC423bdbf_1.2.840.4267.32.338500632115223329272074781821867465077_1.2.840.4267.32.187726110209194199958290062640099007995.nii.gz")
+nifti_path2 = os.path.join(data_path, "abct_compressed/AC423ba7a-AC423bdbf_1.2.840.4267.32.338500632115223329272074781821867465077_1.2.840.4267.32.187726110209194199958290062640099007995.nii.gz")
 cache_dir = os.path.join(data_path, "abct_compressed_cache")
 
 datalist = [
-    {"image": nifti_path, "text": "abdominal CT scan of a patient with a liver lesion"},
+    {"image": nifti_path1, "text": "abdominal CT scan of a patient with a liver lesion"},
+    {"image": nifti_path2, "text": "abdominal CT scan of a patient with a liver lesion"},
     ]
 
 dataloader = merlin.data.DataLoader(
@@ -25,7 +27,7 @@ dataloader = merlin.data.DataLoader(
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 for batch in dataloader:
-    outputs = model(batch["image"].to(device), batch["text"])
+    outputs = model( batch["image"].to(device), batch["text"])
     print(f"\n================== Output Shapes ==================")
     print(f"Contrastive image embeddings shape: {outputs[0].shape}")
     print(f"Phenotype predictions shape: {outputs[1].shape}")

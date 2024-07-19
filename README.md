@@ -2,7 +2,7 @@
 
 *Merlin is a 3D VLM for computed tomography that leverages both structured electronic health records (EHR) and unstructured radiology reports for pretraining.*
 
-[[📄 Paper](https://arxiv.org/abs/2406.06512)] [[🤗 Hugging Face]()]
+[[📄 Paper](https://arxiv.org/abs/2406.06512)] [[🤗 Hugging Face](https://huggingface.co/louisblankemeier/Merlin)]
 
 ![Key Graphic](figures/overview.png)
 
