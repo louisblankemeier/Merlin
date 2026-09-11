@@ -16,5 +16,5 @@ merlin_components:
 tags:
   - segmentation
   - abdominal-ct
-  - nnu-net
+  - nnU-Net
 contact: akkumar@stanford.edu

@@ -4,7 +4,7 @@ Work built on top of Merlin, which include models, datasets, tools, benchmarks, 
 
 Everything listed here is **hosted and maintained by its own authors**. This directory is an index: each project is described by a small YAML file in [`entries/`](entries), and the table below is generated from those files. Nothing is stored in this repository, and a listing is not an endorsement or a validation of clinical safety.
 
-**Want to add your project?** See [CONTRIBUTING.md](CONTRIBUTING.md) — copy [`template.yaml`](template.yaml), fill in the fields, and open a pull request.
+**Want to add your project?** See [CONTRIBUTING.md](CONTRIBUTING.md), copy [`template.yaml`](template.yaml), fill in the fields, and open a pull request.
 
 ## Projects
 

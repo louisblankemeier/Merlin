@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import datetime
+import difflib
 import re
 import sys
 import urllib.error
@@ -214,6 +215,25 @@ def escape_cell(text: str) -> str:
     return " ".join(str(text).split()).replace("|", "\\|")
 
 
+def render_links(links: dict) -> str:
+    """One label per distinct URL.
+
+    Projects commonly point 'homepage' and 'code' at the same repository; show
+    that URL once, labelled with the more specific of the two.
+    """
+    chosen: dict[str, str] = {}
+    for key in LINK_KEYS:
+        url = str(links.get(key, "")).strip()
+        if not url:
+            continue
+        if url not in chosen:
+            chosen[url] = key
+        elif chosen[url] == "homepage":
+            chosen[url] = key
+    ordered = sorted(chosen.items(), key=lambda item: LINK_KEYS.index(item[1]))
+    return " · ".join(f"[{LINK_LABELS[key]}]({url})" for url, key in ordered)
+
+
 def render_table(entries: list[tuple[Path, dict]]) -> str:
     """Render the summary table plus one collapsible block per entry."""
     if not entries:
@@ -252,12 +272,7 @@ def render_table(entries: list[tuple[Path, dict]]) -> str:
             authors.append(f"{who} ({affiliation})" if affiliation else who)
         block.append(f"- **Authors:** {', '.join(authors)}")
 
-        links = [
-            f"[{LINK_LABELS[key]}]({str(entry['links'][key]).strip()})"
-            for key in LINK_KEYS
-            if str(entry["links"].get(key, "")).strip()
-        ]
-        block.append(f"- **Links:** {' · '.join(links)}")
+        block.append(f"- **Links:** {render_links(entry['links'])}")
         block.append(f"- **License:** {escape_cell(entry['license'])}")
 
         if entry.get("merlin_components"):
@@ -411,9 +426,21 @@ def main() -> int:
             else:
                 print(f"community/{INDEX_FILE.name} is already up to date.")
         elif rendered != current:
+            diff = difflib.unified_diff(
+                current.splitlines(keepends=True),
+                rendered.splitlines(keepends=True),
+                fromfile=f"community/{INDEX_FILE.name} (committed)",
+                tofile=f"community/{INDEX_FILE.name} (generated from entries/)",
+            )
             print(
-                f"\nerror: community/{INDEX_FILE.name} is out of date.\n"
-                "Run 'python community/validate.py --write' and commit the result.",
+                f"\nerror: community/{INDEX_FILE.name} is out of date:\n",
+                file=sys.stderr,
+            )
+            sys.stderr.writelines(diff)
+            print(
+                "\nRun 'python community/validate.py --write' and commit the result.\n"
+                "If a line above looks hand-edited, change the YAML in "
+                "community/entries/ instead — the table is generated.",
                 file=sys.stderr,
             )
             return 1
