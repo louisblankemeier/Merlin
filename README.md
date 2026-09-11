@@ -86,7 +86,7 @@ For details on accessing and using the dataset, please see the [download documen
 
 ## 🤝 Community
 
-Models, datasets, and tools built on Merlin by the community are indexed in [`community/`](community) — see [how to add yours](community/CONTRIBUTING.md).
+Models, datasets, and tools built on Merlin by the community are indexed in [`community/`](community). Please see here on [how to add yours](community/CONTRIBUTING.md).
 
 ## 📎 Citation
 
