@@ -1,0 +1,58 @@
+# Copy this file to entries/<your-project-name>.yaml and fill it in.
+# Validate locally with:  python community/validate.py --write --check-links
+# Field reference: community/CONTRIBUTING.md
+
+# Required. Display name of your project, as you want it listed.
+name: My Merlin Project
+
+# Required. One or two sentences, 300 characters max. Plain text, single line.
+description: >
+  A short summary of what your project does and how it builds on Merlin.
+
+# Required. One of: model, dataset, tool, benchmark, tutorial, other
+category: tool
+
+# Required. Everyone you want credited. 'affiliation' and 'email' are optional.
+authors:
+  - name: Your Name
+    affiliation: Your Institution
+
+# Required. The license your artifact is released under, e.g. MIT, Apache-2.0,
+# CC BY 4.0, CC BY-NC 4.0, or a Stanford AIMI data use agreement.
+license: MIT
+
+# Required. 'homepage' is required; the rest are optional. All must be http(s)
+# URLs that work without a login. Merlin does not host artifacts — these point
+# to wherever you host yours.
+links:
+  homepage: https://github.com/your-org/your-project
+  code: https://github.com/your-org/your-project
+  data: https://huggingface.co/datasets/your-org/your-dataset
+  paper: https://arxiv.org/abs/0000.00000
+  demo: https://huggingface.co/spaces/your-org/your-demo
+  docs: https://your-project.readthedocs.io
+
+# Required. ISO date (YYYY-MM-DD) you are adding this entry.
+added: 2026-09-01
+
+# Optional. Which parts of Merlin your work builds on.
+merlin_components:
+  - image encoder
+  - Merlin Abdominal CT Dataset
+
+# Optional. Free-form keywords.
+tags:
+  - segmentation
+  - abdominal-ct
+
+# Optional. How people should cite your work, as BibTeX.
+citation: |
+  @article{yourname2026project,
+    author  = {Your Name},
+    title   = {My Merlin Project},
+    journal = {Journal},
+    year    = {2026}
+  }
+
+# Optional. Email or URL for questions and follow-up.
+contact: you@example.edu

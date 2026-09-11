@@ -47,7 +47,8 @@ repository = "https://github.com/StanfordMIMI/Merlin"
 dev = [
     "ruff",
     "pre-commit",
-    "mdformat"
+    "mdformat",
+    "pyyaml", # used by community/validate.py
 ]
 
 [build-system]

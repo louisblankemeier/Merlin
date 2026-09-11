@@ -78,11 +78,15 @@ model = Merlin(RadiologyReport=True)
 
 #### For a code-first walkthrough of the Merlin codebase, please check out this [blog](https://urldefense.com/v3/__https://passthetorch.dev/posts/deep-dive-into-merlin/__;!!G92We9drHetJ8EofZw!Z0a3-_4uuVWoAUwvJWSw5kj19m15l0bkqc64EveKRMXUceD7ezETrpV2weXxJe6wgUyoYxLFRY3u75ykWYnClE9L$).
 
-## 📂  Merlin Abdominal CT Dataset
+## 📂 Merlin Abdominal CT Dataset
 
 We are excited to release the **Merlin Abdominal CT Dataset** to the community!
 
 For details on accessing and using the dataset, please see the [download documentation](documentation/download.md)!
+
+## 🤝 Community
+
+Models, datasets, and tools built on Merlin by the community are indexed in [`community/`](community) — see [how to add yours](community/CONTRIBUTING.md).
 
 ## 📎 Citation
 

@@ -1,0 +1,40 @@
+name: Community
+
+on:
+  push:
+    paths:
+      - 'community/**'
+      - '.github/workflows/community.yml'
+  pull_request:
+    paths:
+      - 'community/**'
+      - '.github/workflows/community.yml'
+  schedule:
+    # Weekly link-rot check against the default branch (Mondays, 12:00 UTC).
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate entries
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml
+      - name: Validate schema and check the index is in sync
+        run: python community/validate.py
+
+  links:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml
+      - name: Check that every linked URL resolves
+        run: python community/validate.py --links-only
