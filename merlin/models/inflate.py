@@ -1,4 +1,4 @@
-""" Code adapted from https://github.com/hassony2/inflated_convnets_pytorch """
+"""Code adapted from https://github.com/hassony2/inflated_convnets_pytorch"""
 
 import torch
 from torch.nn import Parameter

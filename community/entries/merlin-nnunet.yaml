@@ -1,0 +1,20 @@
+name: Merlin-nnUNet
+description: >
+  Integrates the Merlin image encoder into the nnU-Net framework for 3D
+  abdominal CT segmentation, with setup and inference instructions.
+category: model
+authors:
+  - name: Ashwin Kumar
+    affiliation: Stanford University
+license: Apache-2.0
+links:
+  homepage: https://github.com/ashwinkumargb/Merlin-nnUNet
+  code: https://github.com/ashwinkumargb/Merlin-nnUNet
+added: 2026-09-11
+merlin_components:
+  - image encoder
+tags:
+  - segmentation
+  - abdominal-ct
+  - nnU-Net
+contact: akkumar@stanford.edu
