@@ -66,6 +66,26 @@ The downloaded directory, `merlinabdominalctdataset/`, contains the following fi
   - **Demographics**: Age, Gender, Race
   - **Acquisition parameters**: CT phase (phase), scanner manufacturer and model (manufacturer, manufacturermodelname), tube voltage (kvp), slice thickness (slicethickness), and tube current (ma; xraytubecurrent)
 
+______________________________________________________________________
+
+## 🧬 Precomputed Merlin Embeddings
+
+Merlin image embeddings for the scans in this dataset, so you can run downstream experiments without recomputing features.
+
+**Download:** [`Merlin_Embeddings.zip`](https://huggingface.co/stanfordmimi/Merlin/resolve/main/Merlin_Embeddings.zip) (1.45 GiB)
+
+- One embedding per exam, named by accession ID, e.g. `AC423f41a.pt`, matching the identifiers in `merlin_data/`.
+- Each file is a MONAI `MetaTensor` of shape `(2048, 1, 1, 1)`, float32, produced by the Merlin image encoder.
+
+```python
+import torch
+
+emb = torch.load("AC423f41a.pt", map_location="cpu", weights_only=False)
+features = emb.as_tensor().flatten()  # (2048,)
+```
+
+Loading requires `monai` to be installed, and `weights_only=False`, because the tensors carry MONAI metadata alongside the features.
+
 ## ⚠️ Notes
 
 - Please ensure compliance with Stanford’s **data use agreements** when accessing and working with the dataset.
