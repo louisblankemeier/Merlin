@@ -1,0 +1,49 @@
+name: ORCA-3DCT
+
+description: >
+  Training-free ORCA compression of 3D-CT tokens on the Merlin abdominal CT dataset: SuPreM and SegVol
+  embeddings (ORCA and grid-average at several budgets), the uncompressed encoder grids, and TotalSegmentator
+  organ masks on each encoder's token grid.
+
+category: dataset
+
+authors:
+  - name: Renjie Liang
+  - name: Zijian Xu
+  - name: Jinqian Pan
+  - name: Chengkun Sun
+  - name: Zhengkang Fan
+  - name: Shawn Li
+  - name: You Qin
+  - name: Mei Liu
+  - name: Jie Xu
+
+license: CC BY-NC 4.0
+
+links:
+  homepage: https://github.com/renjie-liang/ORCA-3DCT
+  code: https://github.com/renjie-liang/ORCA-3DCT
+  data: https://huggingface.co/datasets/LiangRenjie/ORCA-3DCT
+  paper: https://arxiv.org/abs/2608.00345
+
+added: 2026-09-14
+
+merlin_components:
+  - Merlin Abdominal CT Dataset
+
+tags:
+  - 3d-ct
+  - token-compression
+  - abdominal-ct
+  - embeddings
+  - organ-masks
+
+citation: |
+  @article{liang2026orca,
+    title={ORCA: ORgan-Centroid Aggregation for Training-Free 3D CT Visual Token Compression},
+    author={Liang, Renjie and Xu, Zijian and Pan, Jinqian and Sun, Chengkun and Fan, Zhengkang and Li, Shawn and Qin, You and Liu, Mei and Xu, Jie},
+    journal={arXiv preprint arXiv:2608.00345},
+    year={2026}
+  }
+
+contact: liang.renjie@ufl.edu
