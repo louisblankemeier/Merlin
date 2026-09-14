@@ -13,6 +13,7 @@ Everything listed here is **hosted and maintained by its own authors**. This dir
 | Project | Type | Description | License |
 | --- | --- | --- | --- |
 | [Merlin-nnUNet](https://github.com/ashwinkumargb/Merlin-nnUNet) | model | Integrates the Merlin image encoder into the nnU-Net framework for 3D abdominal CT segmentation, with setup and inference instructions. | Apache-2.0 |
+| [ORCA-3DCT](https://github.com/renjie-liang/ORCA-3DCT) | dataset | Training-free ORCA compression of 3D-CT tokens on the Merlin abdominal CT dataset: SuPreM and SegVol embeddings (ORCA and grid-average at several budgets), the uncompressed encoder grids, and TotalSegmentator organ masks on each encoder's token grid. | CC BY-NC 4.0 |
 
 <details>
 <summary><b>Merlin-nnUNet</b> — model</summary>
@@ -25,6 +26,29 @@ Everything listed here is **hosted and maintained by its own authors**. This dir
 - **Tags:** `segmentation`, `abdominal-ct`, `nnU-Net`
 - **Contact:** akkumar@stanford.edu
 - **Added:** 2026-09-11 · **Entry:** [`merlin-nnunet.yaml`](entries/merlin-nnunet.yaml)
+
+</details>
+
+<details>
+<summary><b>ORCA-3DCT</b> — dataset</summary>
+
+- **Description:** Training-free ORCA compression of 3D-CT tokens on the Merlin abdominal CT dataset: SuPreM and SegVol embeddings (ORCA and grid-average at several budgets), the uncompressed encoder grids, and TotalSegmentator organ masks on each encoder's token grid.
+- **Authors:** Renjie Liang, Zijian Xu, Jinqian Pan, Chengkun Sun, Zhengkang Fan, Shawn Li, You Qin, Mei Liu, Jie Xu
+- **Links:** [Code](https://github.com/renjie-liang/ORCA-3DCT) · [Data](https://huggingface.co/datasets/LiangRenjie/ORCA-3DCT) · [Paper](https://arxiv.org/abs/2608.00345)
+- **License:** CC BY-NC 4.0
+- **Builds on:** Merlin Abdominal CT Dataset
+- **Tags:** `3d-ct`, `token-compression`, `abdominal-ct`, `embeddings`, `organ-masks`
+- **Contact:** liang.renjie@ufl.edu
+- **Added:** 2026-09-14 · **Entry:** [`orca-3dct.yaml`](entries/orca-3dct.yaml)
+
+```bibtex
+@article{liang2026orca,
+  title={ORCA: ORgan-Centroid Aggregation for Training-Free 3D CT Visual Token Compression},
+  author={Liang, Renjie and Xu, Zijian and Pan, Jinqian and Sun, Chengkun and Fan, Zhengkang and Li, Shawn and Qin, You and Liu, Mei and Xu, Jie},
+  journal={arXiv preprint arXiv:2608.00345},
+  year={2026}
+}
+```
 
 </details>
 
